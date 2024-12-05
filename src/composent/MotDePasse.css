@@ -1,0 +1,30 @@
+.modifier-mdp-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+
+.modifier-mdp-container h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.modifier-mdp-container input {
+    width: 80%;
+    max-width: 500px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 14px;
+    margin-left: 3px;
+}

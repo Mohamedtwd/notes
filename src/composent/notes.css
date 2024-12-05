@@ -1,0 +1,167 @@
+body {
+    background-image: url('/public/images/GTR.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-image: url('/public/images/amaz.jpg');
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+
+.space {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-weight: normal;
+    font-size: 28px;
+    font-family: f;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    margin-top: 0;
+}
+
+.space h2 {
+    font-weight: normal;
+    font-size: 25px;
+    font-family: f;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    margin: 0 5px;
+}
+
+.space span {
+    color: rgb(243, 223, 0);
+}
+
+
+
+.space .center-button {
+    background: rgb(47, 141, 255);
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    margin-left: 160px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+}
+
+.space .logout-button {
+    background: #e74c3c;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    margin-right: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+}
+
+.space .modify-button {
+    background: rgb(0, 255, 234);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    margin-left: 240px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+}
+
+.logout-button:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.center-button:hover {
+    background-color: #0800e8;
+    color: white;
+}
+
+.modify-button:hover {
+    background-color: #2458c6;
+    color: black;
+}
+
+.table-container {
+    flex: 1;
+    width: 80%;
+    margin: 20px auto;
+    overflow-y: auto;
+    scrollbar-width: none;
+    background-image: url('/public/images/M.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+th {
+    background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: f;
+    color: magenta;
+}
+
+td {
+    background: rgba(255, 255, 255, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(196, 214, 172);
+}
+
+.partage {
+    color: rgb(225, 218, 18);
+}
